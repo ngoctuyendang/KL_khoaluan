@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/textColorMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAX" />
+        <TextView android:textSize="25.0sp" android:id="@id/max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/textColorMain" android:id="@id/maxtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/textColorMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AVG" />
+        <TextView android:textSize="25.0sp" android:id="@id/avg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/textColorMain" android:id="@id/avgtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/textColorMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MIN" />
+        <TextView android:textSize="25.0sp" android:id="@id/min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/textColorMain" android:id="@id/mintime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+</LinearLayout>

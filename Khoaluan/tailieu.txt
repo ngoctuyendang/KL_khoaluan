@@ -1,0 +1,2 @@
+convert image to black &white : https://stackoverflow.com/questions/14513542/convert-image-to-black-white
+convert a color imae into garyscale image in java: https://www.dyclassroom.com/image-processing-project/how-to-convert-a-color-image-into-grayscale-image-in-java?fbclid=IwAR0Hd40HAZz_rweT6ATRCluyR0-0bY4ztE0JaIfES7lwPD3YSaym6W_sL88
